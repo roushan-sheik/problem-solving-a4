@@ -1,10 +1,14 @@
+/**
+ * @param {*} ticketSale
+ * @returns number
+ */
 // Create a function called calculateMoney( )
-function calculateMoney(tickets) {
-  if (typeof tickets !== "number" || tickets < 0) {
-    return "Please provide total number of tickets.";
+function calculateMoney(ticketSale) {
+  if (typeof ticketSale !== "number" || ticketSale < 0) {
+    return "Please provide valid total number of tickets.";
   } else {
     const ticketPrice = 120;
-    let totalSelling = tickets * ticketPrice;
+    let totalSelling = ticketSale * ticketPrice;
     // calculate total cost
     const janitorCost = 500;
     // staff cost .
@@ -18,5 +22,5 @@ function calculateMoney(tickets) {
     return remainingMoney;
   }
 }
-const result = calculateMoney(20);
+const result = calculateMoney(10);
 console.log(result);
