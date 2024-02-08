@@ -19,5 +19,5 @@ function checkName(name) {
     return "Bad Name";
   }
 }
-const result = checkName("Arifaj");
+const result = checkName("Jhankar");
 console.log(result);

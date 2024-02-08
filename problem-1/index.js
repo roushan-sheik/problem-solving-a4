@@ -22,5 +22,5 @@ function calculateMoney(ticketSale) {
     return remainingMoney;
   }
 }
-const result = calculateMoney(10);
+const result = calculateMoney(93);
 console.log(result);
