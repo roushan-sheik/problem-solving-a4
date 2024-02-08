@@ -1,6 +1,6 @@
 /**
- * @param {*} array
- * @returns array
+ * @param {Array} array
+ * @returns Array
  */
 // Create a function that takes an array as an argument
 function deleteInvalids(array) {

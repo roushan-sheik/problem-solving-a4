@@ -1,6 +1,6 @@
 /**
- * @param {*} obj
- * @returns string
+ * @param {Object} obj
+ * @returns String
  */
 // Create a  function that takes an object as an argument
 function password(obj) {

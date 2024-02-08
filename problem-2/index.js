@@ -1,6 +1,6 @@
 /**
- *  @param {string} babyName
- *  @returns string
+ *  @param {String} babyName
+ *  @returns String
  */
 // Create a checkName() function that checks the valid name
 function checkName(name) {

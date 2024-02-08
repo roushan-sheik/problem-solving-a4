@@ -1,6 +1,6 @@
 /**
- * @param {*} ticketSale
- * @returns number
+ * @param {Number} ticketSale
+ * @returns Number
  */
 // Create a function called calculateMoney( )
 function calculateMoney(ticketSale) {
